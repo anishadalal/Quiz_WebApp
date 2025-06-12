@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Quiz History</title></head>
+<body>
+    <h2><center>Your Quiz History</center></h2>
+    <center><table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Difficulty</th>
+            <th>Score</th>
+            <th>Total</th>
+            <th>Date</th>
+        </tr>
+        {% for h in history %}
+        <tr>
+            <td>{{ h[0] }}</td>
+            <td>{{ h[1] }}</td>
+            <td>{{ h[2] }}</td>
+            <td>{{ h[3] }}</td>
+            <td>{{ h[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table></center>
+    <br>
+    <a href="/"><center>Back to Home</center></a>
+</body>
+</html>

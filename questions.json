@@ -1,0 +1,634 @@
+{
+  "Python": {
+    "Easy": [
+      {
+        "question": "What is Python?",
+        "options": ["A snake", "A programming language", "A fruit", "An operating system"],
+        "answer": "A programming language"
+      },
+      {
+        "question": "What keyword is used to define a function?",
+        "options": ["function", "fun", "def", "define"],
+        "answer": "def"
+      },
+      {
+        "question": "Which symbol is used for comments in Python?",
+        "options": ["//", "#", "/* */", "--"],
+        "answer": "#"
+      },
+      {
+        "question": "How do you start a loop that runs 5 times?",
+        "options": ["for i in range(5):", "for i = 0; i < 5; i++", "while i < 5:", "loop 5 times"],
+        "answer": "for i in range(5):"
+      },
+      {
+        "question": "What data type is True in Python?",
+        "options": ["Integer", "String", "Boolean", "Float"],
+        "answer": "Boolean"
+      },
+      {
+        "question": "Which keyword is used to handle exceptions?",
+        "options": ["catch", "try", "except", "handle"],
+        "answer": "try"
+      },
+      {
+        "question": "How do you import a module?",
+        "options": ["include", "import", "require", "using"],
+        "answer": "import"
+      },
+      {
+        "question": "What is the output of print(2 + 3 * 4)?",
+        "options": ["14", "20", "18", "10"],
+        "answer": "14"
+      },
+      {
+        "question": "How do you take input from a user?",
+        "options": ["input()", "read()", "get_input()", "scan()"],
+        "answer": "input()"
+      },
+      {
+        "question": "What is the output of len(\"Python\")?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "6"
+      }
+    ],
+    "Moderate": [
+      {
+        "question": "What is a list comprehension?",
+        "options": ["A way to create lists", "A method to sort lists", "A type of loop", "A function to modify lists"],
+        "answer": "A way to create lists"
+      },
+      {
+        "question": "What is the difference between is and ==?",
+        "options": ["is checks identity, == checks equality", "is checks equality, == checks identity", "No difference", "Both are the same"],
+        "answer": "is checks identity, == checks equality"
+      },
+      {
+        "question": "What does *args allow in a function?",
+        "options": ["Variable number of arguments", "Only keyword arguments", "Only positional arguments", "No arguments"],
+        "answer": "Variable number of arguments"
+      },
+      {
+        "question": "What will my_list[::-1] do?",
+        "options": ["Sort the list", "Reverse the list", "Slice the list", "Duplicate the list"],
+        "answer": "Reverse the list"
+      },
+      {
+        "question": "What is the output of print(type({}))?",
+        "options": ["list", "dict", "set", "tuple"],
+        "answer": "dict"
+      },
+      {
+        "question": "What is the purpose of lambda functions?",
+        "options": ["To create anonymous functions", "To define classes", "To handle exceptions", "To create loops"],
+        "answer": "To create anonymous functions"
+      },
+      {
+        "question": "What is the use of the with statement?",
+        "options": ["To handle exceptions", "To manage resources", "To create loops", "To define functions"],
+        "answer": "To manage resources"
+      },
+      {
+        "question": "What does enumerate() do?",
+        "options": ["Counts elements", "Creates a list", "Adds indices to a list", "Removes duplicates"],
+        "answer": "Adds indices to a list"
+      },
+      {
+        "question": "What is a generator in Python?",
+        "options": ["A function that returns a value", "A function that yields values", "A type of list", "A built-in function"],
+        "answer": "A function that yields values"
+      },
+      {
+        "question": "How can you make a class iterable?",
+        "options": ["By defining __iter__ method", "By defining __next__ method", "By using for loop", "By using list"],
+        "answer": "By defining __iter__ method"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "How does Python’s Global Interpreter Lock (GIL) work?",
+        "options": ["Allows multiple threads to run simultaneously", "Prevents multiple threads from executing at once", "Improves performance", "Is not relevant to Python"],
+        "answer": "Prevents multiple threads from executing at once"
+      },
+      {
+        "question": "What is the difference between deepcopy and copy?",
+        "options": ["Deepcopy creates a new object, copy does not", "Copy creates a new object, deepcopy does not", "No difference", "Both create shallow copies"],
+        "answer": "Deepcopy creates a new object, copy does not"
+      },
+      {
+        "question": "What does the @staticmethod decorator do?",
+        "options": ["Defines a static method", "Defines a class method", "Defines an instance method", "No effect"],
+        "answer": "Defines a static method"
+      },
+      {
+        "question": "What is monkey patching?",
+        "options": ["Modifying a class at runtime", "Creating a new class", "Deleting a class", "No effect"],
+        "answer": "Modifying a class at runtime"
+      },
+      {
+        "question": "How do you create a metaclass?",
+        "options": ["By inheriting from type", "By using class keyword", "By using def keyword", "By using new keyword"],
+        "answer": "By inheriting from type"
+      },
+      {
+        "question": "What is the output of list(map(lambda x: x*x, [1,2,3]))?",
+        "options": ["[1, 4, 9]", "[1, 2, 3]", "[2, 4, 6]", "[1, 3, 5]"],
+        "answer": "[1, 4, 9]"
+      },
+      {
+        "question": "Explain __slots__ in Python.",
+        "options": ["Used to limit attributes", "Used to create properties", "Used to define methods", "No effect"],
+        "answer": "Used to limit attributes"
+      },
+      {
+        "question": "What is a coroutine in Python?",
+        "options": ["A special type of generator", "A function that runs in parallel", "A type of thread", "No effect"],
+        "answer": "A special type of generator"
+      },
+      {
+        "question": "How does memory management work in Python?",
+        "options": ["Automatic garbage collection", "Manual memory management", "No memory management", "Only stack memory"],
+        "answer": "Automatic garbage collection"
+      },
+      {
+        "question": "What are descriptors?",
+        "options": ["Objects that define how attributes are accessed", "Functions that return values", "Classes that inherit from object", "No effect"],
+        "answer": "Objects that define how attributes are accessed"
+      }
+    ]
+  },
+  "C": {
+    "Easy": [
+      {
+        "question": "Who created the C language?",
+        "options": ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Ken Thompson"],
+        "answer": "Dennis Ritchie"
+      },
+      {
+        "question": "What is the extension of a C file?",
+        "options": [".c", ".cpp", ".h", ".txt"],
+        "answer": ".c"
+      },
+      {
+        "question": "Which symbol is used to end a statement?",
+        "options": [";", ":", ".", ","],
+        "answer": ";"
+      },
+      {
+        "question": "What function is used to print text?",
+        "options": ["printf", "print", "write", "display"],
+        "answer": "printf"
+      },
+      {
+        "question": "Which header file is required for input/output?",
+        "options": ["stdio.h", "stdlib.h", "string.h", "math.h"],
+        "answer": "stdio.h"
+      },
+      {
+        "question": "What is the default return type of main()?",
+        "options": ["void", "int", "char", "float"],
+        "answer": "int"
+      },
+      {
+        "question": "What keyword is used to define a constant?",
+        "options": ["const", "define", "static", "final"],
+        "answer": "const"
+      },
+      {
+        "question": "How do you declare an integer variable?",
+        "options": ["int a;", "integer a;", "a int;", "int = a;"],
+        "answer": "int a;"
+      },
+      {
+        "question": "What is used to create a loop?",
+        "options": ["for, while", "loop, iterate", "repeat, until", "do, while"],
+        "answer": "for, while"
+      },
+      {
+        "question": "What is the escape character for newline?",
+        "options": ["\\n", "\\t", "\\r", "\\b"],
+        "answer": "\\n"
+      }
+    ],
+    "Moderate": [
+      {
+        "question": "What is a pointer in C?",
+        "options": ["A variable that stores memory address", "A type of variable", "A function", "A constant"],
+        "answer": "A variable that stores memory address"
+      },
+      {
+        "question": "What does malloc() do?",
+        "options": ["Allocates memory", "Frees memory", "Reallocates memory", "Checks memory"],
+        "answer": "Allocates memory"
+      },
+      {
+        "question": "What is the size of int typically?",
+        "options": ["2 bytes", "4 bytes", "8 bytes", "16 bytes"],
+        "answer": "4 bytes"
+      },
+      {
+        "question": "What is the difference between ++a and a++?",
+        "options": ["Pre-increment vs Post-increment", "No difference", "Both are the same", "Different data types"],
+        "answer": "Pre-increment vs Post-increment"
+      },
+      {
+        "question": "What does the sizeof() operator return?",
+        "options": ["Size of a variable", "Size of a data type", "Size of an array", "Size of a function"],
+        "answer": "Size of a data type"
+      },
+      {
+        "question": "What is the difference between struct and union?",
+        "options": ["Structs allocate separate memory, unions share memory", "No difference", "Both are the same", "Unions allocate separate memory, structs share memory"],
+        "answer": "Structs allocate separate memory, unions share memory"
+      },
+      {
+        "question": "What is a static variable?",
+        "options": ["A variable that retains its value", "A variable that cannot be changed", "A variable that is local", "A variable that is global"],
+        "answer": "A variable that retains its value"
+      },
+      {
+        "question": "What is a dangling pointer?",
+        "options": ["A pointer that points to freed memory", "A pointer that is not initialized", "A pointer that is null", "A pointer that is global"],
+        "answer": "A pointer that points to freed memory"
+      },
+      {
+        "question": "How is an array passed to a function?",
+        "options": ["By reference", "By value", "By copy", "By pointer"],
+        "answer": "By reference"
+      },
+      {
+        "question": "What is the purpose of void functions?",
+        "options": ["To return no value", "To return a value", "To create a function", "To define a variable"],
+        "answer": "To return no value"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is memory leakage?",
+        "options": ["Failure to free allocated memory", "Freeing memory too early", "No memory allocation", "Memory allocation error"],
+        "answer": "Failure to free allocated memory"
+      },
+      {
+        "question": "How does pointer arithmetic work?",
+        "options": ["Manipulating memory addresses", "Adding values", "Subtracting values", "No effect"],
+        "answer": "Manipulating memory addresses"
+      },
+      {
+        "question": "What is the difference between calloc() and malloc()?",
+        "options": ["Calloc initializes memory, malloc does not", "No difference", "Both are the same", "Malloc initializes memory, calloc does not"],
+        "answer": "Calloc initializes memory, malloc does not"
+      },
+      {
+        "question": "How does function pointer work?",
+        "options": ["Points to a function", "Points to a variable", "Points to an array", "No effect"],
+        "answer": "Points to a function"
+      },
+      {
+        "question": "What is a segmentation fault?",
+        "options": ["Accessing invalid memory", "Memory allocation error", "No memory allocation", "Freeing memory too early"],
+        "answer": "Accessing invalid memory"
+      },
+      {
+        "question": "How to avoid buffer overflow?",
+        "options": ["Check bounds", "Use dynamic memory", "Use static memory", "No effect"],
+        "answer": "Check bounds"
+      },
+      {
+        "question": "How to implement linked list in C?",
+        "options": ["Using pointers", "Using arrays", "Using structs", "Using classes"],
+        "answer": "Using pointers"
+      },
+      {
+        "question": "What is recursion in C?",
+        "options": ["Function calling itself", "Looping", "Iterating", "No effect"],
+        "answer": "Function calling itself"
+      },
+      {
+        "question": "How do you use macros and their limitations?",
+        "options": ["Preprocessor directives", "Functions", "Variables", "No effect"],
+        "answer": "Preprocessor directives"
+      },
+      {
+        "question": "What happens during compilation in C?",
+        "options": ["Source code is converted to machine code", "Code is executed", "Memory is allocated", "No effect"],
+        "answer": "Source code is converted to machine code"
+      }
+    ]
+  },
+  "C++": {
+    "Easy": [
+      {
+        "question": "What is C++ primarily used for?",
+        "options": ["System programming", "Web development", "Data analysis", "Mobile apps"],
+        "answer": "System programming"
+      },
+      {
+        "question": "What is the extension of C++ files?",
+        "options": [".cpp", ".c", ".java", ".cs"],
+        "answer": ".cpp"
+      },
+      {
+        "question": "Who developed C++?",
+        "options": ["Bjarne Stroustrup", "Dennis Ritchie", "James Gosling", "Ken Thompson"],
+        "answer": "Bjarne Stroustrup"
+      },
+      {
+        "question": "What is the keyword to create a class?",
+        "options": ["class", "struct", "object", "define"],
+        "answer": "class"
+      },
+      {
+        "question": "What is the keyword for inheritance?",
+        "options": ["public", "private", "protected", "inherit"],
+        "answer": "public"
+      },
+      {
+        "question": "What is cin used for?",
+        "options": ["Input from user", "Output to screen", "File handling", "Memory allocation"],
+        "answer": "Input from user"
+      },
+      {
+        "question": "What does cout stand for?",
+        "options": ["Console output", "Console input", "Count", "Counter"],
+        "answer": "Console output"
+      },
+      {
+        "question": "What is the scope resolution operator?",
+        "options": ["::", ".", "->", ":::"],
+        "answer": "::"
+      },
+      {
+        "question": "What is the output of cout << 5 + 3;?",
+        "options": ["8", "53", "Error", "7"],
+        "answer": "8"
+      },
+      {
+        "question": "What is new operator used for?",
+        "options": ["Dynamic memory allocation", "Creating variables", "Deleting memory", "Static memory allocation"],
+        "answer": "Dynamic memory allocation"
+      }
+    ],
+    "Moderate": [
+      {
+        "question": "What is function overloading?",
+        "options": ["Multiple functions with same name but different parameters", "Functions with same name", "Functions with different names", "No effect"],
+        "answer": "Multiple functions with same name but different parameters"
+      },
+      {
+        "question": "What is operator overloading?",
+        "options": ["Defining custom behavior for operators", "Using operators normally", "Overwriting operators", "No effect"],
+        "answer": "Defining custom behavior for operators"
+      },
+      {
+        "question": "What is a constructor?",
+        "options": ["Special function to initialize objects", "A regular function", "Destructor", "No effect"],
+        "answer": "Special function to initialize objects"
+      },
+      {
+        "question": "What is the difference between stack and heap?",
+        "options": ["Stack is for static memory, heap is for dynamic memory", "Stack is for dynamic, heap is for static", "No difference", "Both are the same"],
+        "answer": "Stack is for static memory, heap is for dynamic memory"
+      },
+      {
+        "question": "What is a virtual function?",
+        "options": ["Supports runtime polymorphism", "A function declared static", "A function override", "No effect"],
+        "answer": "Supports runtime polymorphism"
+      },
+      {
+        "question": "What is the use of this pointer?",
+        "options": ["Points to current object", "Points to function", "Points to memory", "No effect"],
+        "answer": "Points to current object"
+      },
+      {
+        "question": "What is the rule of three?",
+        "options": ["If a class requires a destructor, copy constructor, or assignment operator, it should explicitly define all three", "Three constructors", "Three destructors", "No effect"],
+        "answer": "If a class requires a destructor, copy constructor, or assignment operator, it should explicitly define all three"
+      },
+      {
+        "question": "What is the purpose of a copy constructor?",
+        "options": ["Create a new object by copying an existing object", "Destroy an object", "Initialize an object by default", "No effect"],
+        "answer": "Create a new object by copying an existing object"
+      },
+      {
+        "question": "What is encapsulation?",
+        "options": ["Wrapping data and methods in a single unit", "Inheriting from a base class", "Overloading functions", "No effect"],
+        "answer": "Wrapping data and methods in a single unit"
+      },
+      {
+        "question": "What is the Standard Template Library (STL)?",
+        "options": ["A collection of template classes and functions", "A compiler", "A type of function", "No effect"],
+        "answer": "A collection of template classes and functions"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is polymorphism in C++?",
+        "options": ["Ability to take many forms", "Function overloading", "Repeated code", "No effect"],
+        "answer": "Ability to take many forms"
+      },
+      {
+        "question": "What is multiple inheritance?",
+        "options": ["A class inherits from more than one base class", "Class inherits from one base", "No inheritance", "Overloaded class"],
+        "answer": "A class inherits from more than one base class"
+      },
+      {
+        "question": "What is the diamond problem?",
+        "options": ["Multiple inheritance ambiguity", "Bug in code", "Type of error", "No effect"],
+        "answer": "Multiple inheritance ambiguity"
+      },
+      {
+        "question": "How are virtual tables (vtables) used?",
+        "options": ["Support dynamic dispatch of virtual functions", "Support static functions", "No effect", "Support templates"],
+        "answer": "Support dynamic dispatch of virtual functions"
+      },
+      {
+        "question": "What is RAII (Resource Acquisition Is Initialization)?",
+        "options": ["Manage resources with object lifetime", "Resource allocation error", "No effect", "Memory leak"],
+        "answer": "Manage resources with object lifetime"
+      },
+      {
+        "question": "What is the difference between deep copy and shallow copy?",
+        "options": ["Deep copies all objects, shallow copies only references", "No difference", "Both are the same", "Shallow copies all objects, deep copies references"],
+        "answer": "Deep copies all objects, shallow copies only references"
+      },
+      {
+        "question": "How does exception handling work in C++?",
+        "options": ["Try, catch, throw mechanism", "No exception handling", "Only throw statements", "Only catch blocks"],
+        "answer": "Try, catch, throw mechanism"
+      },
+      {
+        "question": "What are templates in C++?",
+        "options": ["Generic programming tools", "Specific functions", "Special type of classes", "No effect"],
+        "answer": "Generic programming tools"
+      },
+      {
+        "question": "What is type casting in C++?",
+        "options": ["Converting one type to another", "Creating new variable", "Deleting variables", "No effect"],
+        "answer": "Converting one type to another"
+      },
+      {
+        "question": "How do smart pointers work?",
+        "options": ["Automatically manage memory", "Manual memory management", "No effect", "Pointers to pointers"],
+        "answer": "Automatically manage memory"
+      }
+    ]
+  },
+  "Java": {
+    "Easy": [
+      {
+        "question": "Who developed Java?",
+        "options": ["James Gosling", "Dennis Ritchie", "Bjarne Stroustrup", "Guido van Rossum"],
+        "answer": "James Gosling"
+      },
+      {
+        "question": "What is the extension of Java files?",
+        "options": [".java", ".class", ".jar", ".exe"],
+        "answer": ".java"
+      },
+      {
+        "question": "What is the JVM?",
+        "options": ["Java Virtual Machine", "Java Variable Method", "Java Visual Module", "Java Version Manager"],
+        "answer": "Java Virtual Machine"
+      },
+      {
+        "question": "What is the entry point of Java program?",
+        "options": ["main() method", "start() method", "init() method", "run() method"],
+        "answer": "main() method"
+      },
+      {
+        "question": "What keyword is used to create a class?",
+        "options": ["class", "new", "define", "object"],
+        "answer": "class"
+      },
+      {
+        "question": "How do you define a method in Java?",
+        "options": ["returnType methodName() {}", "methodName() {}", "function methodName() {}", "def methodName() {}"],
+        "answer": "returnType methodName() {}"
+      },
+      {
+        "question": "What is System.out.println() used for?",
+        "options": ["Print output to console", "Get input from user", "Create files", "No effect"],
+        "answer": "Print output to console"
+      },
+      {
+        "question": "What is the data type for whole numbers?",
+        "options": ["int", "float", "double", "char"],
+        "answer": "int"
+      },
+      {
+        "question": "What is the result of 5 + 3 * 2?",
+        "options": ["11", "16", "10", "13"],
+        "answer": "11"
+      },
+      {
+        "question": "What does public static void main mean?",
+        "options": ["Main method signature", "Declaring a class", "Declaring a variable", "No effect"],
+        "answer": "Main method signature"
+      }
+    ],
+    "Moderate": [
+      {
+        "question": "What is inheritance in Java?",
+        "options": ["Mechanism of acquiring properties from parent class", "Creating classes", "Overriding methods", "No effect"],
+        "answer": "Mechanism of acquiring properties from parent class"
+      },
+      {
+        "question": "What is an interface?",
+        "options": ["A contract for classes to implement methods", "A class", "A variable", "No effect"],
+        "answer": "A contract for classes to implement methods"
+      },
+      {
+        "question": "What is abstraction?",
+        "options": ["Hiding implementation details", "Showing all details", "Creating objects", "No effect"],
+        "answer": "Hiding implementation details"
+      },
+      {
+        "question": "What is the difference between == and .equals()?",
+        "options": ["== compares references, .equals() compares values", "No difference", "== compares values, .equals() compares references", "Both are the same"],
+        "answer": "== compares references, .equals() compares values"
+      },
+      {
+        "question": "What is method overriding?",
+        "options": ["Redefining method in subclass", "Creating new method", "Deleting method", "No effect"],
+        "answer": "Redefining method in subclass"
+      },
+      {
+        "question": "What is the use of super keyword?",
+        "options": ["Access parent class members", "Access child class members", "Create objects", "No effect"],
+        "answer": "Access parent class members"
+      },
+      {
+        "question": "What is the difference between ArrayList and LinkedList?",
+        "options": ["ArrayList uses dynamic array, LinkedList uses doubly linked list", "No difference", "Both are arrays", "Both are linked lists"],
+        "answer": "ArrayList uses dynamic array, LinkedList uses doubly linked list"
+      },
+      {
+        "question": "What is a constructor in Java?",
+        "options": ["Special method to initialize objects", "Regular method", "Destructor", "No effect"],
+        "answer": "Special method to initialize objects"
+      },
+      {
+        "question": "What are wrapper classes?",
+        "options": ["Classes that wrap primitive types", "Classes inherit from Object", "Function classes", "No effect"],
+        "answer": "Classes that wrap primitive types"
+      },
+      {
+        "question": "What is exception handling?",
+        "options": ["Managing runtime errors", "Creating exceptions", "Deleting exceptions", "No effect"],
+        "answer": "Managing runtime errors"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is multithreading in Java?",
+        "options": ["Multiple threads running concurrently", "Single thread execution", "No threading", "Parallel processing"],
+        "answer": "Multiple threads running concurrently"
+      },
+      {
+        "question": "How does garbage collection work in Java?",
+        "options": ["Automatically frees unused memory", "Manual memory management", "Deletes variables", "No effect"],
+        "answer": "Automatically frees unused memory"
+      },
+      {
+        "question": "What is the use of the synchronized keyword?",
+        "options": ["Control access to critical sections", "Create threads", "Stop threads", "No effect"],
+        "answer": "Control access to critical sections"
+      },
+      {
+        "question": "What is the difference between final, finally, and finalize?",
+        "options": ["final is constant, finally is block, finalize is method", "All are same", "final is variable, finally is condition, finalize is method", "No effect"],
+        "answer": "final is constant, finally is block, finalize is method"
+      },
+      {
+        "question": "What is reflection in Java?",
+        "options": ["Inspect and modify runtime behavior", "Create objects", "Delete classes", "No effect"],
+        "answer": "Inspect and modify runtime behavior"
+      },
+      {
+        "question": "What are lambda expressions?",
+        "options": ["Anonymous functions", "Classes", "Methods", "No effect"],
+        "answer": "Anonymous functions"
+      },
+      {
+        "question": "What is the Stream API?",
+        "options": ["Process sequences of elements", "Handle files", "Create threads", "No effect"],
+        "answer": "Process sequences of elements"
+      },
+      {
+        "question": "How do annotations work?",
+        "options": ["Provide metadata to code", "Define variables", "Create methods", "No effect"],
+        "answer": "Provide metadata to code"
+      },
+      {
+        "question": "What is the difference between HashMap and Hashtable?",
+        "options": ["Hashtable is synchronized, HashMap is not", "No difference", "Both are synchronized", "Both are not synchronized"],
+        "answer": "Hashtable is synchronized, HashMap is not"
+      },
+      {
+        "question": "What is the Java Memory Model?",
+        "options": ["Specifies how threads interact through memory", "Memory size", "Memory management", "No effect"],
+        "answer": "Specifies how threads interact through memory"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center bg-white p-5 rounded shadow-sm">
+  <h2 class="mb-3">Hi, {{ name }} 👋</h2>
+  <p class="lead">Ready to test your knowledge?</p>
+
+  <div class="d-grid gap-3 mt-4">
+    <a href="/select_subject" class="btn btn-primary btn-lg">Start Quiz</a>
+    <a href="/history" class="btn btn-outline-secondary">View History</a>
+    <a href="/logout" class="btn btn-danger">Logout</a>
+  </div>
+</div>
+{% endblock %}
+

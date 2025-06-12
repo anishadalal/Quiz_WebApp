@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="text-center mb-4">Choose Your Quiz</h2>
+<form method="POST" class="bg-white p-4 rounded shadow-sm">
+  <div class="mb-3">
+    <label for="subject" class="form-label">Select Subject</label>
+    <select class="form-select" name="subject" id="subject" required>
+      <option value="">-- Choose Subject --</option>
+      <option value="C">C</option>
+      <option value="C++">C++</option>
+      <option value="Java">Java</option>
+      <option value="Python">Python</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="difficulty" class="form-label">Select Difficulty</label>
+    <select class="form-select" name="difficulty" id="difficulty" required>
+      <option value="">-- Choose Difficulty --</option>
+      <option value="Easy">Easy</option>
+      <option value="Moderate">Moderate</option>
+      <option value="Hard">Hard</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-success w-100">Start Quiz</button>
+</form>
+{% endblock %}

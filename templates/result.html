@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center p-5 bg-white rounded shadow-sm">
+  <h2 class="mb-4">🎉 Quiz Completed!</h2>
+  <p class="fs-4">You scored <strong>{{ score }}</strong> out of <strong>{{ total }}</strong></p>
+  
+  <div class="mt-4 d-flex justify-content-center gap-3">
+    <a href="{{ url_for('select_subject') }}" class="btn btn-outline-primary">Try Another Quiz</a>
+    <a href="{{ url_for('history') }}" class="btn btn-outline-secondary">View History</a>
+    <a href="{{ url_for('logout') }}" class="btn btn-outline-danger">Logout</a>
+  </div>
+</div>
+{% endblock %}
