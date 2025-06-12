@@ -61,62 +61,6 @@ def select_subject():
     return render_template('select_subject.html')
 
 
-
-# @app.route('/quiz', methods=['GET', 'POST'])
-# def quiz():
-#     if 'user_id' not in session:
-#         return redirect(url_for('login'))
-
-#     # Handle quiz submission
-#     if request.method == 'POST':
-#         subject = session.get('selected_subject')
-#         difficulty = session.get('selected_difficulty')
-
-#         with open('questions.json') as f:
-#             all_questions = json.load(f)
-
-#         questions = all_questions.get(subject, {}).get(difficulty, [])
-
-#         score = 0
-#         for i, q in enumerate(questions):
-#             user_answer = request.form.get(f'q{i}')
-#             if user_answer == q['answer']:
-#                 score += 1
-
-#         # Save history to DB
-#         conn = sqlite3.connect('quiz.db')
-#         c = conn.cursor()
-#         c.execute("INSERT INTO history (user_id, subject, difficulty, score, total) VALUES (?, ?, ?, ?, ?)",
-#                   (session['user_id'], subject, difficulty, score, len(questions)))
-#         conn.commit()
-#         conn.close()
-
-#         return render_template('result.html', score=score, total=len(questions))
-
-#     # GET method → show quiz
-#     subject = request.args.get('subject')
-#     difficulty = request.args.get('difficulty')
-
-#     # Save selection in session for POST use
-#     session['selected_subject'] = subject
-#     session['selected_difficulty'] = difficulty
-
-#     with open('questions.json') as f:
-#         all_questions = json.load(f)
-
-#     questions = all_questions.get(subject, {}).get(difficulty, [])
-
-#     # ✅ Debug prints
-#     print("Subject:", subject)
-#     print("Difficulty:", difficulty)
-#     print("Questions:", questions)
-
-#     if not questions:
-#         return "⚠️ No questions found for this subject and difficulty level."
-
-#     return render_template('quiz.html', questions=questions, subject=subject, difficulty=difficulty)
-
-
 @app.route('/quiz', methods=['GET', 'POST'])
 def quiz():
     if 'user_id' not in session:
@@ -172,8 +116,6 @@ def quiz():
         return "⚠️ No questions found for this subject and difficulty level."
 
     return render_template('quiz.html', questions=questions, subject=subject, difficulty=difficulty)
-
-
 
 
 @app.route('/history')
